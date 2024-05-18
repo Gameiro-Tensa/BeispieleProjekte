@@ -2,9 +2,9 @@
 
 def ggt(a, b):
     while b != 0:
-        #a, b = b, a % b
-        a = b
-        b = a % b
+        a, b = b, a % b
+        #a = b
+        #b = a % b
     return a
 
 zahl1 = int(input("geben Sie den ersten zahl ein: "))
